@@ -9,6 +9,7 @@ Research objective: Explore how data-quality checks and anomaly-detection method
 
 Team
 Team member	Role described in Assessment 1
+
 Yojana Subedi	: Project lead and dashboard/visualisation specialist
 Binaya Jung Shah : Data engineering and preprocessing specialist
 Jenith Khatri: 	Machine-learning engineer and model evaluator
@@ -125,11 +126,15 @@ Data access: The historical raw data may be subject to client permissions and co
 
 Scope and limitations
 The original Assessment 1 proposal included broader operational functions: deduplication, KNN/linear gap reconstruction, a four-category quality taxonomy, a 30-day Sensor Health Index, an operational alerting dashboard and Power BI delivery. The completed research implementation instead emphasises broad EDA, statistical screening, a focused four-station rainfall ML experiment and retrospective results presented in Streamlit.
+
+
 Not all original proposal components have been demonstrated as completed. In particular:
 Full network-wide missing-data reconstruction and the 30-day Sensor Health Index are not presented as implemented.
 The four-category operational workflow and automatic live sensor alerts are not presented as deployed.
 Results are based on selected stations and synthetic faults; performance on verified real-world failures remains unknown.
 Neighbour disagreements and high statistical readings are suspicions, not confirmed failures.
+
+
 Future work
 
 Evaluate physically informed screening rules and persistent-fault detection for flatlines and stuck-zero periods.

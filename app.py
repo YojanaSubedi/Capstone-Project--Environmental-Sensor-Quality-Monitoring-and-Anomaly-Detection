@@ -72,6 +72,46 @@ st.sidebar.info(
     "independently verified."
 )
 
+# ============================================================
+# SENSOR SQUAD — TEAM AND SUPERVISORS
+# Displayed on every page without changing the model outputs.
+# ============================================================
+st.sidebar.divider()
+st.sidebar.markdown("### 👥 Meet the Team")
+st.sidebar.caption(
+    "NZSE College | Bachelor of Business and Information Management (BBIM)"
+)
+
+st.sidebar.markdown("**Yojana Subedi**")
+st.sidebar.caption(
+    "NZSE BBIM student | Project Management & Visualisation. "
+    "Coordinated the project and integrated findings into the dashboard."
+)
+
+st.sidebar.markdown("**Binaya Jung Shah**")
+st.sidebar.caption(
+    "NZSE BBIM student | Data Engineering & Preprocessing. "
+    "Prepared and analysed environmental sensor datasets using Python and Pandas."
+)
+
+st.sidebar.markdown("**Jenith Khatri**")
+st.sidebar.caption(
+    "NZSE BBIM student | Machine Learning & Model Evaluation. "
+    "Developed and evaluated rainfall anomaly-detection models."
+)
+
+st.sidebar.divider()
+st.sidebar.markdown("### 🎓 Project Supervisors")
+st.sidebar.markdown("**Dr Sara Zandi**")
+st.sidebar.caption("Internal Supervisor | NZSE College")
+st.sidebar.markdown("**Achmad**")
+st.sidebar.caption("External Supervisor | WUT")
+st.sidebar.caption("Please verify the external supervisor’s affiliation before final submission.")
+
+st.sidebar.divider()
+st.sidebar.caption("Sensor Squad | BBIM713 Capstone Project | 2026")
+
+
 st.title("Rainfall Sensor Anomaly Detection")
 st.caption(
     "Interactive exploration of machine-learning "

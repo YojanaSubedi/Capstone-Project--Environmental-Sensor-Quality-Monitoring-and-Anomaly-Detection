@@ -143,5 +143,5 @@ Obtain verified maintenance/failure annotations to validate real-world usefulnes
 Revisit the original imputation, sensor-health scoring and operational alerting objectives where approved and feasible.
 Improve reproducibility, permissions documentation and evaluation of processing efficiency.
 
-Acknowledgements and references
+Acknowledgements and references.
 This is a BBIM713 student capstone research project. For the full academic context, original proposal and cited literature, see the associated Assessment 1 proposal and Assessment 2 report. No client approval, operational deployment or confirmed sensor failures are implied by this repository.

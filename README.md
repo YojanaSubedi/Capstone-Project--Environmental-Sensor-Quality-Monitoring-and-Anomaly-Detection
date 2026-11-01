@@ -1,7 +1,7 @@
 Environmental Sensor Quality Monitoring and Anomaly Detection
 BBIM713 — Capstone Project (Data Analytics)  
 Team: Sensor Squad  
-Project context: Auckland regional environmental ground-gauge measurements (2015–2026)
+Project context: Auckland regional environmental ground-gauge measurements (2015–2026).
 
 Project overview
 Environmental monitoring stations record rainfall, river discharge and river water level. Historical records can contain missing measurements, duplicated timestamps, unusually high readings and long periods of constant or zero values. This project investigates such patterns using exploratory data analysis (EDA), statistical screening, comparisons between neighbouring rainfall gauges and a focused machine-learning experiment.
